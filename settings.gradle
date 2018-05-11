@@ -1,0 +1,2 @@
+include ':app', ':sliderlayout', ':MXKit'
+include ':litepal'

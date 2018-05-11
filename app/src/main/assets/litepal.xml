@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!--数据库名-->
+    <dbname value="order_online_db" />
+
+    <!-- 数据库版本号，升级数据库的时候只需要在此加1即可 -->
+    <version value="1" />
+
+    <!-- 你需要创建的表，只需要在此设定映射模型即可。
+         当你的数据模型结构发生变化，需要数据库也跟着改变的时候，或者添加新的映射模型的时候，需要升级你的数据库版本-->
+    <list>
+        <mapping class="com.example.rui.myapplication.bean.BaseBean"></mapping>
+        <mapping class="com.example.rui.myapplication.bean.UserInfo"></mapping>
+        <mapping class="com.example.rui.myapplication.bean.GoodsInfo"></mapping>
+        <mapping class="com.example.rui.myapplication.bean.OrdersInfo"></mapping>
+    </list>
+
+    <!--
+        keep ：按类和字段名大小写作为表名和列名
+        upper ：将所有的类和字段名称以大写的方式作为表明和列名。
+        lower ：将所有的类和字段名称以小写的方式作为表明和列名。
+    -->
+    <cases value="keep"></cases>
+    <!--
+        external：如果设置external，数据库文件将储存在/storage/sdcard1/Android/data/应用包名/files/databases
+                  如果是不想被别人查看的数据，最好不要设置external
+                  在设置external的时候别忘了加权限<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        internal：设置internal将把数据库存在应用内部文件夹，非本应用和root权限无法查看
+        不设置则默认internal
+    -->
+    <storage value="internal" />
+</litepal>

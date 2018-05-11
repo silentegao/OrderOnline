@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.baserecycleradapter:library-1.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.baserecycleradapter/library/1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.baserecycleradapter/library/1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.baserecycleradapter/library/1.1.0/a5bb1a589a4d3ccc1b67fe0f0d7cb79c90f40a3d/library-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

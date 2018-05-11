@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginRight="5dp"
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/timg"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:id="@+id/tv_seat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="A1"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="5dp"
+        />
+
+</LinearLayout>
