@@ -48,6 +48,33 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="店铺选择："
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.example.rui.myapplication.utils.MySpinner
+                    android:id="@+id/spinner_shop"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:elevation="2dp"
+                    app:listTextColor="@color/white"
+                    app:listTextSize="18sp"
+                    app:selectBackground="@drawable/spinner_left_stroke_bg"
+                    app:selectTextColor="#888888"
+                    app:selectTextSize="18sp"></com.example.rui.myapplication.utils.MySpinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 

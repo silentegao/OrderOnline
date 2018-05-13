@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_shop_name">
+        <item>丁一家菜馆</item>
+        <item>棒约翰比萨</item>
+        <item>海哥烧烤</item>
+        <item>留夫鸭</item>
+        <item>一品粥铺</item>
+        <item>超级奶爸</item>
+    </string-array>
+</resources>

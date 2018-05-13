@@ -54,11 +54,11 @@ public class TwoFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Log.e(TAG, "onCreateView: ");
-        View view = inflater.inflate(R.layout.two_fragment,container,false);
+        View view = inflater.inflate(R.layout.two_fragment, container, false);
 
-        recyclerView = (RecyclerView)view.findViewById(R.id.rv_orders);
+        recyclerView = (RecyclerView) view.findViewById(R.id.rv_orders);
 
-        linearLayoutManager = new LinearLayoutManager(mActivity,LinearLayoutManager.VERTICAL,false);
+        linearLayoutManager = new LinearLayoutManager(mActivity, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(linearLayoutManager);
 
         recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, DensityUtils.dp2px(getContext(), 0), DensityUtils.dp2px(getContext(), 8)));
@@ -76,13 +76,13 @@ public class TwoFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        Log.e(TAG,"two onAttach");
+        Log.e(TAG, "two onAttach");
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Log.e(TAG,"two onActivityCreated");
+        Log.e(TAG, "two onActivityCreated");
     }
 
     @Override
@@ -92,10 +92,10 @@ public class TwoFragment extends Fragment {
         Log.e(TAG, "onResume: ");
     }
 
-    private void select(){
-        List<OrdersInfo> list =  DataSupport.where("orderUserUid = ? ", Cons.UID).order("createTime desc").find(OrdersInfo.class);
+    private void select() {
+        List<OrdersInfo> list = DataSupport.where("orderUserUid = ? ", Cons.UID).order("createTime desc").find(OrdersInfo.class);
         ordersInfoList.clear();
-        if (list != null){
+        if (list != null) {
             ordersInfoList.addAll(list);
         }
         if (adapter == null) {
@@ -103,8 +103,8 @@ public class TwoFragment extends Fragment {
             adapter.setDeleteOrderInterface(new OrderListAdapter.DeleteOrderInterface() {
                 @Override
                 public void delete(int position) {
-                    Log.e("infoD", "delete: ID:"+ordersInfoList.get(position).getId());
-                    DataSupport.delete(OrdersInfo.class,ordersInfoList.get(position).getId());
+                    Log.e("infoD", "delete: ID:" + ordersInfoList.get(position).getId());
+                    DataSupport.delete(OrdersInfo.class, ordersInfoList.get(position).getId());
                     ordersInfoList.remove(position);
                     adapter.notifyDataSetChanged();
                 }
@@ -114,18 +114,19 @@ public class TwoFragment extends Fragment {
                 public void onItemClick(View view, int position) {
 //                Toast.makeText(getContext(), "ceshi!"+position, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getContext(), OrderListDetailActivity.class);
-                    intent.putExtra("ImageUrl",ordersInfoList.get(position).getImageUrl());
-                    intent.putExtra("GoodsTypeName",ordersInfoList.get(position).getGoodsTypeName());
+                    intent.putExtra("ImageUrl", ordersInfoList.get(position).getImageUrl());
+                    intent.putExtra("ImagePicName", ordersInfoList.get(position).getImagePicName());
+                    intent.putExtra("GoodsTypeName", ordersInfoList.get(position).getGoodsTypeName());
                     intent.putExtra("GoodsAmount", ordersInfoList.get(position).getGoodsAmount());
-                    intent.putExtra("GoodsPrice",ordersInfoList.get(position).getGoodsPrice());
-                    intent.putExtra("SeatNo",ordersInfoList.get(position).getSeatNo());
-                    intent.putExtra("CreateTime",new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(ordersInfoList.get(position).getCreateTime()));
-                    intent.putExtra("Id",ordersInfoList.get(position).getId());
+                    intent.putExtra("GoodsPrice", ordersInfoList.get(position).getGoodsPrice());
+                    intent.putExtra("SeatNo", ordersInfoList.get(position).getSeatNo());
+                    intent.putExtra("CreateTime", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(ordersInfoList.get(position).getCreateTime()));
+                    intent.putExtra("Id", ordersInfoList.get(position).getId());
                     startActivity(intent);
                 }
             });
             recyclerView.setAdapter(adapter);
-        }else{
+        } else {
             adapter.notifyDataSetChanged();
         }
     }
@@ -133,36 +134,36 @@ public class TwoFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        Log.d(TAG,"two onStart");
+        Log.d(TAG, "two onStart");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        Log.d(TAG,"two onStop");
+        Log.d(TAG, "two onStop");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        Log.d(TAG,"two onPause");
+        Log.d(TAG, "two onPause");
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        Log.d(TAG,"two onDestroyView");
+        Log.d(TAG, "two onDestroyView");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.d(TAG,"two onDestroy");
+        Log.d(TAG, "two onDestroy");
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        Log.d(TAG,"two onDetach");
+        Log.d(TAG, "two onDetach");
     }
 }

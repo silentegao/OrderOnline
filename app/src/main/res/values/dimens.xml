@@ -28,4 +28,5 @@
 
     <dimen name="sl_arc_height">6.5dp</dimen>
 
+    <dimen name="defalut_text_size">14sp</dimen>
 </resources>

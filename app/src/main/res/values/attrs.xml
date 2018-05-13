@@ -13,4 +13,15 @@
         </attr>
         <attr name="sl_arc_height" format="dimension|reference" />
     </declare-styleable>
+
+    <declare-styleable name="MySpinner">
+        <attr name="selectTextColor" format="color"></attr>
+        <attr name="selectTextSize" format="dimension"></attr>
+        <attr name="selectBackground" format="integer"></attr>
+
+        <attr name="listTextColor" format="color"></attr>
+        <attr name="listTextSize" format="dimension"></attr>
+        <attr name="listBackground" format="integer"></attr>
+
+    </declare-styleable>
 </resources>

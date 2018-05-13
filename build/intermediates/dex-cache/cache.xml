@@ -3,156 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_00d1fce07d18b0e2c727edb96d85b186238768ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.7.0/2637055420a2da406e3ea9920c2ff4aafd38c970/butterknife-annotations-8.7.0.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="2637055420a2da406e3ea9920c2ff4aafd38c970">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.7.0_6030a36d1316f55086e0d4f4546431f8f7d1d978.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.zhy/autolayout/1.4.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="911eeaf6f474e74b7dbd9fa7f19aa56715a344ae">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.zhy-autolayout-1.4.3_22d002ff3f4ee036cc886acb861fdd81fc612587.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.1.1/5cd91fd014f5b72292f959748c20a2cefefae77d/eventbus-3.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="5cd91fd014f5b72292f959748c20a2cefefae77d">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/eventbus-3.1.1_fcc5cf765ac5936be8a4c8e53344ccd299cb77f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.1.0_c62928028327a39476839f35c9272041660ddeaf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_6c31e9a454c4160a432631829abd3f8603cd4d2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.1/d8e711ae108185c59c17b36b3c3f11b20cf9b4d5/gson-2.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="d8e711ae108185c59c17b36b3c3f11b20cf9b4d5">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/gson-2.2.1_885faa0e0736312f22e3f637fe2ae886a6902c90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_77f0656df7c7d4dc08ef03fae754da9e07b280b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/glide-3.7.0_556f423a430328b273a5ea1b06eb27a07727e9f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_532dfaffa002e8cfedecc7ef8271f6020d026188.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_68dd68f77bdf791698805d88b5034f6c5d84dadd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_a4830188f05e6df7138757a90064fc5349ff588d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.7.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.7.0_474106b4f0d5f21a21d85db3f78e5c524ad85e3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshHeader/1.0.2-alpha-8/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="834634f4b92d3cd1096c19900e1cbdbed0dd10ad">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshHeader-1.0.2-alpha-8_8f0d44ca9bb1314de93de0aef1c670f8271dd898.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-26.1.0_5e68743b22624061c7d5b12be8109b2767a5da90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshLayout/1.0.2-alpha-8/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44655fc02a63347f0045e29e5b60dd834e3cde14">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshLayout-1.0.2-alpha-8_4b8346e273a4e98d3d612b06d11c7720c1b83c2d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_6c3bf7dc2528978bfd5d55cf41039e3e3f243903.jar" />
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_0a1364f29896c49d7d7a4d53c1aee9b0a504dabf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -162,15 +18,6 @@
         revision="26.0.1"
         sha1="8fcb6c7c4efc7f9dda2271d5f86176d60e73324d">
         <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.github.baserecycleradapter-library-1.1.0_36e841c11dbf95d518bc1e630016560191bdd4f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_256f8766b5ee2a3860d5da74bf5227b528203a8b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,276 +30,24 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.yanzhenjie/permission/1.1.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b0f2a353658d4d973cae8ba3e37695c8c71898df">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.yanzhenjie-permission-1.1.2_d382eb458d8ea8ae8ee9c1c88b21272b0fdd2448.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.yanzhenjie.alertdialog/alertdialog/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="284e4a41a5b9f1b8c97b16b685af7b99724bca2d">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.yanzhenjie.alertdialog-alertdialog-1.0.1_53f8159cad32de387755bf0690fd13d20f01faa0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_0a1364f29896c49d7d7a4d53c1aee9b0a504dabf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/OrderOnline/litepal/unspecified/jars/classes.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.commit451/PhotoView/1.2.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="07652caff30e7c2ca0ebf819b79327c59b193330">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/OrderOnline-litepal-unspecified_34d837578a1368a454511ec298e02dedb465ad82.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_532dfaffa002e8cfedecc7ef8271f6020d026188.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshLayout/1.0.2-alpha-8/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="44655fc02a63347f0045e29e5b60dd834e3cde14">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshLayout-1.0.2-alpha-8_4b8346e273a4e98d3d612b06d11c7720c1b83c2d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/glide-3.7.0_556f423a430328b273a5ea1b06eb27a07727e9f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_1a77ccabbf52fcc1930d3b3b33045a907dcceee5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_82078b45c916d683c55eb97f228a73d0dc25ac25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_0208493c5fcacf2115a87bc659c18c876fde57f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_77f0656df7c7d4dc08ef03fae754da9e07b280b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_a1d950d73a6b2a5340dd3c116ddb544ecd744442.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.1.0_c1622d8f924716050d65f7c377cb247967b58fd6.jar" />
+        sha1="890be6e1e56a883c9b407a11e067a61886dec123">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.commit451-PhotoView-1.2.4_f96334754010e028d1812d39c866a9fd1696ccf6.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.7.0/2637055420a2da406e3ea9920c2ff4aafd38c970/butterknife-annotations-8.7.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
+        revision="26.0.1"
         sha1="2637055420a2da406e3ea9920c2ff4aafd38c970">
         <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.7.0_6030a36d1316f55086e0d4f4546431f8f7d1d978.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-26.1.0_5e68743b22624061c7d5b12be8109b2767a5da90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_6456f7d7a3b9182823309dc9dc020eb4a2cf6893.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9b649c64fcf0e10be551d0ee1588fc95d35ea3e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.7.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.7.0_474106b4f0d5f21a21d85db3f78e5c524ad85e3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_82078b45c916d683c55eb97f228a73d0dc25ac25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/org.xutils/xutils/3.3.40/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="e10132f12da0143881647ccbb4cedb494fe0ba41">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/org.xutils-xutils-3.3.40_fb6e2b523e6fae233d4e18c695dce12e800419bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_6c3bf7dc2528978bfd5d55cf41039e3e3f243903.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_00d1fce07d18b0e2c727edb96d85b186238768ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.yanzhenjie/permission/1.1.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b0f2a353658d4d973cae8ba3e37695c8c71898df">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.yanzhenjie-permission-1.1.2_d382eb458d8ea8ae8ee9c1c88b21272b0fdd2448.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_3a84048979893d594eef06184d13464ed5ff4900.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_a4830188f05e6df7138757a90064fc5349ff588d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_6c31e9a454c4160a432631829abd3f8603cd4d2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshHeader/1.0.2-alpha-8/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="834634f4b92d3cd1096c19900e1cbdbed0dd10ad">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshHeader-1.0.2-alpha-8_8f0d44ca9bb1314de93de0aef1c670f8271dd898.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_0a1364f29896c49d7d7a4d53c1aee9b0a504dabf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/OrderOnline/litepal/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="07652caff30e7c2ca0ebf819b79327c59b193330">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/OrderOnline-litepal-unspecified_34d837578a1368a454511ec298e02dedb465ad82.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.bigkoo/convenientbanner/2.0.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.bigkoo-convenientbanner-2.0.5_3a3cadeeeddd0fa2b6efbe053ed730ea9fe9958e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.bigkoo/convenientbanner/2.0.5/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -462,12 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.0/jars/classes.jar"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.1.0_c1622d8f924716050d65f7c377cb247967b58fd6.jar" />
+        revision="26.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_83c52fa6067d5cb1d7df9b4b00875172b0ba3c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4452ea29611174afd612d79ff11c3eb30965a57b">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.github.LuckSiege.PictureSelector-picture_library-v1.2.7_40d3d2a9f2eee388ae4063e38e64d4641b6a321f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -480,6 +84,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.1.0_c62928028327a39476839f35c9272041660ddeaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/OrderOnline/litepal/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="07652caff30e7c2ca0ebf819b79327c59b193330">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/OrderOnline-litepal-unspecified_34d837578a1368a454511ec298e02dedb465ad82.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -489,12 +111,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.github.baserecycleradapter/library/1.1.0/jars/classes.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="8fcb6c7c4efc7f9dda2271d5f86176d60e73324d">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.github.baserecycleradapter-library-1.1.0_36e841c11dbf95d518bc1e630016560191bdd4f5.jar" />
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_6456f7d7a3b9182823309dc9dc020eb4a2cf6893.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_77f0656df7c7d4dc08ef03fae754da9e07b280b2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -516,30 +147,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_0208493c5fcacf2115a87bc659c18c876fde57f3.jar" />
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9b649c64fcf0e10be551d0ee1588fc95d35ea3e6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.5/4f1ac7ec0215e8f87ac80269baadc82878b87ed8/rxjava-2.0.5.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_3a84048979893d594eef06184d13464ed5ff4900.jar" />
+        revision="26.0.1"
+        sha1="4f1ac7ec0215e8f87ac80269baadc82878b87ed8">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/rxjava-2.0.5_7c5295d7fb8686fe76b1c553050ebada2f81c06a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.1.0_c62928028327a39476839f35c9272041660ddeaf.jar" />
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_532dfaffa002e8cfedecc7ef8271f6020d026188.jar" />
     </item>
     <item
         is-multidex="false"
@@ -552,6 +183,69 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/glide-3.7.0_556f423a430328b273a5ea1b06eb27a07727e9f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_82078b45c916d683c55eb97f228a73d0dc25ac25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.7.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.7.0_474106b4f0d5f21a21d85db3f78e5c524ad85e3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_1a77ccabbf52fcc1930d3b3b33045a907dcceee5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshHeader/1.0.2-alpha-8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="834634f4b92d3cd1096c19900e1cbdbed0dd10ad">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshHeader-1.0.2-alpha-8_8f0d44ca9bb1314de93de0aef1c670f8271dd898.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-26.1.0_5e68743b22624061c7d5b12be8109b2767a5da90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_6c3bf7dc2528978bfd5d55cf41039e3e3f243903.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.yanzhenjie.alertdialog/alertdialog/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -561,12 +255,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.7/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9b649c64fcf0e10be551d0ee1588fc95d35ea3e6.jar" />
+        revision="26.0.1"
+        sha1="97f7c277d43422acdb587ce0e49657cb24636646">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.github.LuckSiege.PictureSelector-ucrop-v1.2.7_4ff1c62a91821f121f3e6fa498d6f033dab0883f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_00d1fce07d18b0e2c727edb96d85b186238768ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.yanzhenjie/permission/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0f2a353658d4d973cae8ba3e37695c8c71898df">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.yanzhenjie-permission-1.1.2_d382eb458d8ea8ae8ee9c1c88b21272b0fdd2448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshLayout/1.0.2-alpha-8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44655fc02a63347f0045e29e5b60dd834e3cde14">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.scwang.smartrefresh-SmartRefreshLayout-1.0.2-alpha-8_4b8346e273a4e98d3d612b06d11c7720c1b83c2d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -579,6 +300,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/common-1.0.0_0208493c5fcacf2115a87bc659c18c876fde57f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_3a84048979893d594eef06184d13464ed5ff4900.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.1/d8e711ae108185c59c17b36b3c3f11b20cf9b4d5/gson-2.2.1.jar"
         jumboMode="false"
         optimize="true"
@@ -588,30 +327,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_6456f7d7a3b9182823309dc9dc020eb4a2cf6893.jar" />
+        revision="26.0.1"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_170323b295aa6176442f677cdf3d93fae220baeb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_061561ea868e0ea4aad68f82b8d03abdf509e2bc.jar" />
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_a4830188f05e6df7138757a90064fc5349ff588d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jar="/Users/zhurui/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="27.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_1a77ccabbf52fcc1930d3b3b33045a907dcceee5.jar" />
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_6c31e9a454c4160a432631829abd3f8603cd4d2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
+        <dex dex="/Users/zhurui/Git/demos/demo/OrderOnline/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.1.0_c1622d8f924716050d65f7c377cb247967b58fd6.jar" />
     </item>
 
 </items>

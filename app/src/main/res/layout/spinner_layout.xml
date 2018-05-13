@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true">
+
+    <TextView
+        android:id="@+id/txt_select"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/spinner_left_stroke_bg"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="2222哈哈哈哈" />
+
+    <RelativeLayout
+        android:id="@+id/rl_arrow"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/spinner_right_bg">
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinner_split_line" />
+
+        <ImageView
+            android:id="@+id/img_arrow"
+            android:layout_width="12dp"
+            android:layout_height="6dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/spinner_arrow_down" />
+    </RelativeLayout>
+</LinearLayout>

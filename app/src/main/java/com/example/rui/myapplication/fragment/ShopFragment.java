@@ -2,7 +2,6 @@ package com.example.rui.myapplication.fragment;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -36,7 +35,7 @@ public class ShopFragment extends Fragment {
 
     private EditText etSearch;
 
-    private int[] shopsImg = {R.mipmap.shops1,R.mipmap.shops2,R.mipmap.shops3,R.mipmap.shops4,R.mipmap.shops5,R.mipmap.shops6};
+    private int[] shopsImg = {R.mipmap.shops1, R.mipmap.shops2, R.mipmap.shops3, R.mipmap.shops4, R.mipmap.shops5, R.mipmap.shops6};
 
     public ShopFragment() {
         // Required empty public constructor
@@ -140,17 +139,17 @@ public class ShopFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_shop, container, false);
 
-        recyclerView = (RecyclerView)view.findViewById(R.id.rv_shops);
+        recyclerView = (RecyclerView) view.findViewById(R.id.rv_shops);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        adapter = new ShopsAdapter(getContext(),beanList,layoutId);
+        adapter = new ShopsAdapter(getContext(), beanList, layoutId);
         adapter.setOnItemClickListener(new BaseRecycleAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
                 Intent intent = new Intent(getContext(), ShopDetailActivity.class);
-                intent.putExtra("TITLE",beanList.get(position).getName());
-                intent.putExtra("POSITION",position);
+                intent.putExtra("TITLE", beanList.get(position).getName());
+                intent.putExtra("POSITION", position);
                 startActivity(intent);
             }
         });
@@ -159,7 +158,7 @@ public class ShopFragment extends Fragment {
 
         recyclerView.setAdapter(adapter);
 
-        etSearch = (EditText)view.findViewById(R.id.et_search);
+        etSearch = (EditText) view.findViewById(R.id.et_search);
         etSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -177,7 +176,7 @@ public class ShopFragment extends Fragment {
                 List<ShopsBean> list = new ArrayList<>();
                 for (ShopsBean bean :
                         sourceList) {
-                    if (bean.getName().contains(key)){
+                    if (bean.getName().contains(key)) {
                         list.add(bean);
                     }
                 }

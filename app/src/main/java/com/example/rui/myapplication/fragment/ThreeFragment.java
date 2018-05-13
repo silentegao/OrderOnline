@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.rui.myapplication.R;
+import com.example.rui.myapplication.activity.AddGoodsActivity;
 import com.example.rui.myapplication.activity.LoginActivity;
 import com.example.rui.myapplication.bean.UserInfo;
 import com.example.rui.myapplication.cons.Cons;
@@ -111,7 +112,7 @@ public class ThreeFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(getContext(), LoginActivity.class);
+            Intent intent = new Intent(getContext(), AddGoodsActivity.class);
             startActivity(intent);
         }
     }

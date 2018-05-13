@@ -1,7 +1,12 @@
 package com.example.rui.myapplication.adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Environment;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,14 +14,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.rui.myapplication.R;
 import com.example.rui.myapplication.activity.DetailActivity;
 import com.example.rui.myapplication.bean.GoodsInfo;
-import com.squareup.picasso.MemoryPolicy;
-import com.squareup.picasso.Picasso;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,6 +48,7 @@ public class GoodsRecyclerviewAdapter extends RecyclerView.Adapter<GoodsRecycler
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final GoodsInfo goodsInfo = lstGoodsInfo.get(position);
+        final String imagePicName = goodsInfo.getImagePicName();
         final int imageUrl = goodsInfo.getImageUrl();
         final String name = goodsInfo.getGoodsName();
         final long price = goodsInfo.getGoodsPrice();
@@ -54,7 +58,19 @@ public class GoodsRecyclerviewAdapter extends RecyclerView.Adapter<GoodsRecycler
 //        Picasso.with(context).load("111").error(imageUrl)
 //                .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
 //                .into(holder.itemImg);
-        holder.itemImg.setImageResource(imageUrl);
+        if (TextUtils.isEmpty(imagePicName)) {
+            holder.itemImg.setImageResource(imageUrl);
+        } else {
+            String filePath = Environment.getExternalStorageDirectory().
+                    getAbsolutePath() + "/" + imagePicName + ".png";
+            File mfile = new File(filePath);
+            Bitmap bm = null;
+            if (mfile.exists()) {        //若该文件存在
+                bm = BitmapFactory.decodeFile(filePath);
+                holder.itemImg.setImageBitmap(bm);
+                Log.e("AddGoodsActivity", "bm" + "++++++" + bm);
+            }
+        }
         holder.itemTitle.setText(name);
         holder.itemMinPrice.setText(String.valueOf(price));
         holder.itemEvaPerMonth.setText(String.valueOf(goodsNumbers));
@@ -68,13 +84,14 @@ public class GoodsRecyclerviewAdapter extends RecyclerView.Adapter<GoodsRecycler
 //                intent.putExtra("uid", userBase.getUid());
 //                context.startActivity(intent);
                 int id = 0;
-                if (goodsInfo != null){
+                if (goodsInfo != null) {
                     try {
                         id = goodsInfo.getId();
-                    }catch (Exception e){}
+                    } catch (Exception e) {
+                    }
                 }
-                DetailActivity.actionStart(context,id,
-                        imageUrl,name,star,price,goodsNumbers,detail);
+                DetailActivity.actionStart(context, id, imagePicName,
+                        imageUrl, name, star, price, goodsNumbers, detail);
             }
         });
     }

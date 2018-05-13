@@ -27,6 +27,10 @@ public class OrdersInfo extends BaseBean {
      */
     private Integer id;
     /**
+     * 店铺名
+     */
+    private String shopName;
+    /**
      * 订单id号
      */
     private String orderUid;
@@ -55,6 +59,10 @@ public class OrdersInfo extends BaseBean {
      */
     private Integer imageUrl;
     /**
+     * 商品图片路径
+     */
+    private String imagePicName;
+    /**
      * 商品价格
      */
     private long goodsPrice;
@@ -78,6 +86,14 @@ public class OrdersInfo extends BaseBean {
      * 修改时间       db_column: modify_time
      */
     private Date modifyTime;
+
+    public String getShopName() {
+        return shopName;
+    }
+
+    public void setShopName(String shopName) {
+        this.shopName = shopName;
+    }
 
     public Integer getId() {
         return id;
@@ -141,6 +157,14 @@ public class OrdersInfo extends BaseBean {
 
     public void setImageUrl(Integer imageUrl) {
         this.imageUrl = imageUrl;
+    }
+
+    public String getImagePicName() {
+        return imagePicName;
+    }
+
+    public void setImagePicName(String imagePicName) {
+        this.imagePicName = imagePicName;
     }
 
     public long getGoodsPrice() {
