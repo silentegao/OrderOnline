@@ -9,7 +9,6 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 
 import com.example.rui.myapplication.R;
 import com.example.rui.myapplication.adapter.baseadapter.BaseRecycleAdapter;
@@ -93,7 +92,7 @@ public class OrderListAdapter extends BaseRecycleAdapter<OrdersInfo> {
                         })
                         .create();
 
-                d.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+//                d.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
 
                 d.show();
 
