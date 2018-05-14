@@ -2,6 +2,7 @@ package com.example.rui.myapplication.activity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -21,8 +22,10 @@ import android.widget.Toast;
 import com.example.rui.myapplication.R;
 import com.example.rui.myapplication.bean.GoodsInfo;
 import com.example.rui.myapplication.utils.MySpinner;
-import com.example.rui.myapplication.utils.TakePhotoUtils;
-import com.yalantis.ucrop.entity.LocalMedia;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 import org.litepal.crud.DataSupport;
 
@@ -43,7 +46,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class AddGoodsActivity extends Activity {
-
+    private static final int REQUEST_PICK = 0;
     @BindView(R.id.tv_title)
     TextView tvTitle;
     @BindView(R.id.iv_pic)
@@ -69,12 +72,18 @@ public class AddGoodsActivity extends Activity {
     String shopPicName;
     String goodsName;
     GoodsInfo goodsInfos;
+    private ArrayList<String> selectedPicture = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         setContentView(R.layout.activity_add_goods);
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(this)
+                .threadPriority(Thread.NORM_PRIORITY - 2).denyCacheImageMultipleSizesInMemory()
+                .diskCacheFileNameGenerator(new Md5FileNameGenerator()).diskCacheSize(100 * 1024 * 1024)
+                .diskCacheFileCount(300).tasksProcessingOrder(QueueProcessingType.LIFO).build();
+        ImageLoader.getInstance().init(config);
         unbinder = ButterKnife.bind(this);
         initView();
         Log.i("---->", "onCreate");
@@ -84,48 +93,49 @@ public class AddGoodsActivity extends Activity {
         ivPic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TakePhotoUtils.open(AddGoodsActivity.this, 1, new TakePhotoUtils.PhotoSelectinterface() {
-                    @Override
-                    public void selectSuccess(List<LocalMedia> result) {
-
-                        for (LocalMedia item : result) {
-                            item.getPath();
-
-                            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
-                            String dateStr = sdf.format(new Date(System.currentTimeMillis()));
-                            shopPicName = dateStr;
-
-                            filePath = Environment.getExternalStorageDirectory().
-                                    getAbsolutePath() + "/" + dateStr + ".png";
-
-                            item.getCompressPath();
-                            Log.e("AddGoodsActivity", "r________" + item.getPath() + "++++++" + item.getCompressPath());
-                            Log.e("AddGoodsActivity", "dateStr________" + "++++++" + dateStr);
-                            Log.e("AddGoodsActivity", "filePath________" + "++++++" + filePath);
-                            FileInputStream fis = null;
-                            try {
-                                fis = new FileInputStream(item.getPath());
-                            } catch (FileNotFoundException e) {
-                                e.printStackTrace();
-                            }
-                            final Bitmap bitmap = BitmapFactory.decodeStream(fis);
-                            ivPic.setImageBitmap(bitmap);
-                            new Thread() {
-                                @Override
-                                public void run() {
-                                    super.run();
-                                    try {
-                                        Thread.sleep(3000);
-                                    } catch (InterruptedException e) {
-                                        e.printStackTrace();
-                                    }
-                                    saveImg(bitmap);
-                                }
-                            }.start();
-
-                        }
-                    }
-                });
+                startActivityForResult(new Intent(AddGoodsActivity.this, SelectPictureActivity.class), REQUEST_PICK);
+//                TakePhotoUtils.open(AddGoodsActivity.this, 1, new TakePhotoUtils.PhotoSelectinterface() {
+//                    @Override
+//                    public void selectSuccess(List<LocalMedia> result) {
+//
+//                        for (LocalMedia item : result) {
+//                            item.getPath();
+//
+//                            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+//                            String dateStr = sdf.format(new Date(System.currentTimeMillis()));
+//                            shopPicName = dateStr;
+//
+//                            filePath = Environment.getExternalStorageDirectory().
+//                                    getAbsolutePath() + "/" + dateStr + ".png";
+//
+//                            item.getCompressPath();
+//                            Log.e("AddGoodsActivity", "r________" + item.getPath() + "++++++" + item.getCompressPath());
+//                            Log.e("AddGoodsActivity", "dateStr________" + "++++++" + dateStr);
+//                            Log.e("AddGoodsActivity", "filePath________" + "++++++" + filePath);
+//                            FileInputStream fis = null;
+//                            try {
+//                                fis = new FileInputStream(item.getPath());
+//                            } catch (FileNotFoundException e) {
+//                                e.printStackTrace();
+//                            }
+//                            final Bitmap bitmap = BitmapFactory.decodeStream(fis);
+//                            ivPic.setImageBitmap(bitmap);
+//                            new Thread() {
+//                                @Override
+//                                public void run() {
+//                                    super.run();
+//                                    try {
+//                                        Thread.sleep(3000);
+//                                    } catch (InterruptedException e) {
+//                                        e.printStackTrace();
+//                                    }
+//                                    saveImg(bitmap);
+//                                }
+//                            }.start();
+//
+//                        }
+//                    }
+//                });
             }
         });
 
@@ -135,6 +145,48 @@ public class AddGoodsActivity extends Activity {
         spinnerShop.setSelected("请选择");
         spinnerShop.setOnItemSelectedListener(new OnItemSelectedListenerShop());
         btnSubmit.setOnClickListener(new OnClickListenerSubmit());
+    }
+
+    @SuppressWarnings("unchecked")
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
+            selectedPicture = (ArrayList<String>) data
+                    .getSerializableExtra(SelectPictureActivity.INTENT_SELECTED_PICTURE);
+            selectedPicture.get(0);
+
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+            String dateStr = sdf.format(new Date(System.currentTimeMillis()));
+            shopPicName = dateStr;
+
+            filePath = Environment.getExternalStorageDirectory().
+                    getAbsolutePath() + "/" + dateStr + ".png";
+
+            Log.e("AddGoodsActivity", "r________" + "++++++" + selectedPicture.get(0));
+            Log.e("AddGoodsActivity", "dateStr________" + "++++++" + dateStr);
+            Log.e("AddGoodsActivity", "filePath________" + "++++++" + filePath);
+            FileInputStream fis = null;
+            try {
+                fis = new FileInputStream(selectedPicture.get(0));
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            final Bitmap bitmap = BitmapFactory.decodeStream(fis);
+            ivPic.setImageBitmap(bitmap);
+            new Thread() {
+                @Override
+                public void run() {
+                    super.run();
+                    try {
+                        Thread.sleep(3000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    saveImg(bitmap);
+                }
+            }.start();
+        }
     }
 
     String strShopName = "";

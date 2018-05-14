@@ -96,6 +96,9 @@
         <activity
             android:name=".activity.AddGoodsActivity"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.SelectPictureActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
